@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cheesecake | Sweetiverse</title>
+  <meta name="description"
+    content="Cheesecake Sweetiverse Rp 16.000 — Cheesecake lembut creamy dengan topping buah segar. Strawberry & Blueberry.">
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'sw-purple': '#655A7C',
+            'sw-lilac': '#AC92C1',
+            'sw-cream': '#FDF1E3',
+            'sw-dark': '#2E2438',
+          },
+          fontFamily: {
+            display: ['"Fredoka"', 'sans-serif'],
+            body: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="font-body bg-sw-cream text-sw-dark">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar fixed top-0 left-0 right-0 z-[60] px-4 md:px-8 py-3">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="index.html"
+        class="flex items-center gap-2.5 font-display text-xl sm:text-2xl font-bold text-[#FDF1E3] tracking-wide hover:opacity-90 transition">
+        <img src="assets/images/logo-nav.png" alt="Logo Sweetiverse"
+          class="logo-img h-9 w-auto rounded-full bg-white px-2 py-0.5 shadow-sm object-contain">
+        <span>SWEETIVERSE</span>
+      </a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="gabin.html" class="nav-link">Ice Cream Gabin</a>
+        <a href="cheesecake.html" class="nav-link active">Cheesecake</a>
+        <a href="tiramisu.html" class="nav-link">Tiramisu</a>
+        <a href="https://wa.me/6289572580071?text=Halo%20Sweetiverse%2C%20saya%20mau%20pesan%20Cheesecake"
+          target="_blank" rel="noopener noreferrer" class="btn-pill btn-wa text-sm">Order Now</a>
+      </div>
+      <button class="hamburger md:hidden flex flex-col gap-1.5 p-2" aria-label="Toggle navigation menu"
+        aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-overlay fixed inset-0 bg-black/50 z-40 md:hidden"></div>
+  <div
+    class="mobile-menu fixed top-0 right-0 h-full w-72 bg-sw-purple z-50 md:hidden px-6 pb-8 flex flex-col gap-2 pt-24 shadow-2xl">
+    <a href="index.html"
+      class="text-[#FDF1E3] text-lg font-medium py-3 px-4 rounded-xl transition hover:bg-white/10">Home</a>
+    <a href="gabin.html"
+      class="text-[#FDF1E3] text-lg font-medium py-3 px-4 rounded-xl transition hover:bg-white/10">Ice Cream Gabin</a>
+    <a href="cheesecake.html"
+      class="active text-[#FDF1E3] text-lg font-medium py-3 px-4 rounded-xl transition hover:bg-white/10">Cheesecake</a>
+    <a href="tiramisu.html"
+      class="text-[#FDF1E3] text-lg font-medium py-3 px-4 rounded-xl transition hover:bg-white/10">Tiramisu</a>
+    <a href="https://wa.me/6289572580071?text=Halo%20Sweetiverse%2C%20saya%20mau%20pesan%20Cheesecake" target="_blank"
+      rel="noopener noreferrer" class="btn-pill btn-wa text-center mt-4">Order Now</a>
+  </div>
+
+  <!-- ========== BANNER ========== -->
+  <section class="grid-paper-lilac pt-28 pb-12 md:pb-16 relative overflow-hidden">
+    <svg class="sparkle absolute top-20 right-[12%] text-white opacity-40" width="22" height="22" viewBox="0 0 24 24"
+      fill="currentColor">
+      <path d="M12 0L14.59 8.41L23 12L14.59 15.59L12 24L9.41 15.59L1 12L9.41 8.41Z" />
+    </svg>
+    <svg class="sparkle sparkle-d absolute bottom-12 left-[10%] text-[#FDF1E3] opacity-50" width="18" height="18"
+      viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 0L14.59 8.41L23 12L14.59 15.59L12 24L9.41 15.59L1 12L9.41 8.41Z" />
+    </svg>
+
+    <div class="max-w-5xl mx-auto px-4 md:px-8 text-center reveal">
+      <span class="badge badge-purple mb-5 inline-block">🍰 2 Varian Rasa · Rp 16.000</span>
+      <h1 class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-none mb-5">
+        <span class="block text-sw-purple mb-1">CHEESE</span>
+        <span class="block text-outline-cream">CAKE</span>
+      </h1>
+      <p class="text-sw-dark/80 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6">
+        Cheesecake lembut nan creamy dengan base biscuit renyah dan topping buah segar yang meleleh di mulut. Pure
+        indulgence! 🍓🫐
+      </p>
+      <div class="flex flex-wrap justify-center gap-3">
+        <a href="https://forms.gle/5CXfSBJgFs5ggQZA8" target="_blank" rel="noopener noreferrer"
+          class="btn-pill btn-primary">📝 Pesan via Google Form</a>
+        <a href="https://wa.me/6289572580071?text=Halo%20Sweetiverse%2C%20saya%20mau%20pesan%20Cheesecake"
+          target="_blank" rel="noopener noreferrer" class="btn-pill btn-wa">💬 Tanya via WA</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRODUCT GRID ========== -->
+  <section class="py-16 md:py-20 px-4 md:px-8">
+    <div class="max-w-5xl mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+        <!-- 1. Strawberry Cheesecake -->
+        <div class="product-card flex flex-col reveal">
+          <div class="card-image" style="background:linear-gradient(135deg,#fce4ec,#f8b4b4,#e88a8a)">
+            <div class="placeholder-label"><span class="pl-emoji">🍓</span><span class="pl-text">Strawberry
+                Cheesecake</span></div>
+            <img src="assets/images/cheesecake-strawberry.jpeg" alt="Strawberry Cheesecake" loading="lazy">
+          </div>
+          <div class="p-5 md:p-6 flex flex-col flex-1 justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-2">
+                <span class="badge text-xs">Fan Favorite</span>
+                <span class="price-tag">Rp 16.000</span>
+              </div>
+              <h3 class="font-display text-xl font-bold text-sw-dark mb-2">Strawberry Cheesecake</h3>
+              <p class="text-sm text-sw-dark/60 mb-5 leading-relaxed">
+                Cheesecake lembut dengan saus strawberry homemade yang manis segar. Topping buah strawberry asli di
+                atasnya bikin makin menggoda!
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-2.5">
+              <a href="https://forms.gle/5CXfSBJgFs5ggQZA8" target="_blank" rel="noopener noreferrer"
+                class="btn-pill btn-gform text-sm flex-1">📝 Isi GForm</a>
+              <a href="https://wa.me/6289572580071?text=Halo%20Sweetiverse%2C%20saya%20mau%20pesan%20Strawberry%20Cheesecake"
+                target="_blank" rel="noopener noreferrer" class="btn-pill btn-primary text-sm flex-1">Pesan via WA</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Blueberry Cheesecake -->
+        <div class="product-card flex flex-col reveal" style="transition-delay:.1s">
+          <div class="card-image" style="background:linear-gradient(135deg,#e0d4f0,#b8a0d8,#8e70b8)">
+            <div class="placeholder-label"><span class="pl-emoji">🫐</span><span class="pl-text">Blueberry
+                Cheesecake</span></div>
+            <img src="assets/images/cheesecake-blueberry.jpeg" alt="Blueberry Cheesecake" loading="lazy">
+          </div>
+          <div class="p-5 md:p-6 flex flex-col flex-1 justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-2">
+                <span class="badge text-xs">Creamy Berry</span>
+                <span class="price-tag">Rp 16.000</span>
+              </div>
+              <h3 class="font-display text-xl font-bold text-sw-dark mb-2">Blueberry Cheesecake</h3>
+              <p class="text-sm text-sw-dark/60 mb-5 leading-relaxed">
+                Cheesecake premium dengan compote blueberry yang kaya rasa. Perpaduan manis dan sedikit asam yang bikin
+                balance sempurna!
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-2.5">
+              <a href="https://forms.gle/5CXfSBJgFs5ggQZA8" target="_blank" rel="noopener noreferrer"
+                class="btn-pill btn-gform text-sm flex-1">📝 Isi GForm</a>
+              <a href="https://wa.me/6289572580071?text=Halo%20Sweetiverse%2C%20saya%20mau%20pesan%20Blueberry%20Cheesecake"
+                target="_blank" rel="noopener noreferrer" class="btn-pill btn-primary text-sm flex-1">Pesan via WA</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- GForm PO & Marketplace Callout -->
+      <div class="mt-12 bg-white rounded-2xl p-6 md:p-8 border-2 border-sw-lilac/30 text-center reveal shadow-sm">
+        <span class="badge badge-purple mb-3 inline-block">📝 Cara Pesan Cheesecake</span>
+        <h3 class="font-display text-2xl font-bold text-sw-purple mb-2">Order via Google Form (COD) atau Marketplace (PO 3 Hari)</h3>
+        <p class="text-sm text-sw-dark/70 mb-5 max-w-2xl mx-auto leading-relaxed">
+          <strong>Via GForm:</strong> Isi form produk &rarr; selesaikan pemesanan &amp; pembayaran &rarr; pesanan diambil <strong>COD sesuai kesepakatan</strong>.<br>
+          <strong>Via TikTok Shop / Shopee:</strong> Checkout di toko resmi &rarr; pesanan dikirim setelah <strong>PO selama 3 hari</strong>.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a href="https://forms.gle/5CXfSBJgFs5ggQZA8" target="_blank" rel="noopener noreferrer" class="btn-pill btn-primary text-sm">📝 Isi GForm Cheesecake (COD)</a>
+          <a href="https://www.tiktok.com/@sweetiverse_smg?_r=1&_t=ZS-9Bky0zl8U23" target="_blank" rel="noopener noreferrer" class="btn-pill btn-gform text-sm">🎵 TikTok Shop</a>
+          <a href="https://id.shp.ee/tc2hY5mh" target="_blank" rel="noopener noreferrer" class="btn-pill btn-gform text-sm">🛍️ Shopee</a>
+          <a href="https://wa.me/6289572580071?text=Halo%20Sweetiverse%2C%20saya%20mau%20pesan%20Cheesecake" target="_blank" rel="noopener noreferrer" class="btn-pill btn-wa text-sm">💬 Chat WA</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPLORE OTHER ========== -->
+  <section class="py-14 px-4 md:px-8 bg-sw-lilac/10">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="font-display text-2xl font-bold text-center text-sw-purple mb-8 reveal">Jelajahi Menu Lainnya ✨</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <a href="gabin.html" class="cat-nav-card reveal">
+          <div class="text-4xl mb-3">🍦</div>
+          <h4 class="font-display font-bold text-lg text-sw-dark mb-1">Ice Cream Gabin</h4>
+          <p class="text-sm text-sw-dark/50">4 varian rasa · Rp 13.000</p>
+        </a>
+        <a href="tiramisu.html" class="cat-nav-card reveal" style="transition-delay:.1s">
+          <div class="text-4xl mb-3">☕</div>
+          <h4 class="font-display font-bold text-lg text-sw-dark mb-1">Tiramisu Cup</h4>
+          <p class="text-sm text-sw-dark/50">3 varian rasa · Rp 15.000</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer py-14 px-4 md:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+        <div>
+          <div class="flex items-center gap-2.5 mb-3">
+            <img src="assets/images/logo-nav.png" alt="Logo Sweetiverse"
+              class="logo-img h-10 w-auto rounded-xl bg-white px-2 py-0.5 shadow-sm object-contain">
+            <h3 class="font-display text-2xl font-bold">Sweetiverse</h3>
+          </div>
+          <p class="opacity-80 text-sm leading-relaxed">Ready for a cosmic sugar rush? ✨<br>Homemade desserts made with
+            love in Semarang.</p>
+        </div>
+        <div>
+          <h4 class="font-display font-semibold text-lg mb-4">Menu</h4>
+          <div class="flex flex-col gap-2 text-sm">
+            <a href="index.html">Home</a>
+            <a href="gabin.html">Ice Cream Gabin (Rp 13.000)</a>
+            <a href="cheesecake.html">Cheesecake (Rp 16.000)</a>
+            <a href="tiramisu.html">Tiramisu Cup (Rp 15.000)</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-display font-semibold text-lg mb-4">Order via GForm</h4>
+          <div class="flex flex-col gap-2 text-sm">
+            <a href="https://forms.gle/PEzxazUoLuqxzvDk6" target="_blank" rel="noopener noreferrer">📝 GForm Ice Cream
+              Gabin</a>
+            <a href="https://forms.gle/5CXfSBJgFs5ggQZA8" target="_blank" rel="noopener noreferrer">📝 GForm
+              Cheesecake</a>
+            <a href="https://forms.gle/Vcs1Wg2mBcdz8TVi8" target="_blank" rel="noopener noreferrer">📝 GForm Tiramisu
+              Cup</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-display font-semibold text-lg mb-4">Hubungi &amp; Ikuti Kami</h4>
+          <div class="flex flex-col gap-2.5 text-sm">
+            <a href="https://wa.me/6289572580071" target="_blank" rel="noopener noreferrer">📱 WhatsApp:
+              0895-7258-0071</a>
+            <a href="https://instagram.com/sweetiverse_smg" target="_blank" rel="noopener noreferrer">📸 IG:
+              @sweetiverse_smg</a>
+            <a href="https://www.tiktok.com/@sweetiverse_smg?_r=1&_t=ZS-9Bky0zl8U23" target="_blank"
+              rel="noopener noreferrer">🎵 TikTok: @sweetiverse_smg</a>
+            <a href="https://id.shp.ee/tc2hY5mh" target="_blank" rel="noopener noreferrer">🛍️ Shopee: sweetiverse</a>
+            <p>📍 Semarang, Jawa Tengah</p>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-white/20 pt-6 text-center text-sm opacity-50">
+        <p>&copy; 2026 Sweetiverse. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WA -->
+  <a href="https://wa.me/6289572580071?text=Halo%20Sweetiverse%2C%20saya%20mau%20pesan%20Cheesecake" target="_blank"
+    rel="noopener noreferrer" class="floating-wa" aria-label="Chat WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
