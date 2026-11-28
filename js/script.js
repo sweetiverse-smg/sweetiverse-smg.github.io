@@ -51,17 +51,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /* ---------- Scroll Reveal ---------- */
+  /* ---------- Scroll Reveal (Bi-Directional: Scroll Down & Up) ---------- */
   const reveals = document.querySelectorAll('.reveal');
   if (reveals.length) {
     const io = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
+        const el = entry.target;
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          io.unobserve(entry.target);
+          el.classList.add('visible');
+        } else {
+          el.classList.remove('visible');
+          if (entry.boundingClientRect.top < 0) {
+            el.classList.add('from-top');
+          } else {
+            el.classList.remove('from-top');
+          }
         }
       });
-    }, { threshold: 0.05, rootMargin: '0px 0px -20px 0px' });
+    }, { threshold: 0.04, rootMargin: '0px 0px -10px 0px' });
     reveals.forEach(el => io.observe(el));
   }
 
