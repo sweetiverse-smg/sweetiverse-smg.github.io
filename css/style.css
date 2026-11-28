@@ -344,7 +344,7 @@ section[id] { scroll-margin-top: 76px; }
 .cat-nav-card {
   background: var(--sw-white);
   border-radius: 1.25rem;
-  padding: 1.75rem;
+  padding: 1.5rem 1.75rem;
   text-align: center;
   transition: all .3s ease;
   border: 2px solid rgba(172,146,193,.2);
@@ -354,6 +354,57 @@ section[id] { scroll-margin-top: 76px; }
   border-color: var(--sw-lilac);
   transform: translateY(-4px);
   box-shadow: 0 10px 28px rgba(101,90,124,.12);
+}
+.cat-thumb {
+  width: 96px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 0 auto .85rem;
+  display: block;
+  border: 2px solid rgba(172,146,193,.35);
+  box-shadow: 0 4px 14px rgba(101,90,124,.14);
+  transition: transform .35s ease;
+}
+.cat-nav-card:hover .cat-thumb {
+  transform: scale(1.06);
+}
+
+/* ---------- Official Brand Icons ---------- */
+.brand-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.15rem;
+  height: 1.15rem;
+  flex-shrink: 0;
+}
+.brand-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.brand-icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  padding: .22rem;
+  border-radius: .45rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(46,36,56,.15);
+  flex-shrink: 0;
+}
+.brand-icon-badge svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.footer-icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
 }
 
 /* ---------- Order Channel Tabs ---------- */
